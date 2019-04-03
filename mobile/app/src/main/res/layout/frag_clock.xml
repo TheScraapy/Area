@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/fragment_news_rootview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.teamponey.teamponeay.area.Fragments.Oauth.ClockFrag"
+    >
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30px"
+        android:textSize="22sp"
+        android:text="Trigger at the hour you choose: (0 - 24)" />
+
+    <EditText
+        android:id="@+id/etData"
+        android:layout_below="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30px"
+        android:text="16" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_below="@id/etData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="30px"
+        android:text="Send" />
+</RelativeLayout>

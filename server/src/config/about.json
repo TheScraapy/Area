@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Youtube",
+    "actions": [
+      {
+        "name": "New subscription",
+        "description": "Triggers when you subscribe to a channel",
+        "isConfigureble": false
+      },
+      {
+        "name": "New subscribers",
+        "description": "Triggers when people subscribe to your channel",
+        "isConfigurable": false
+      },
+      {
+        "name": "New liked video",
+        "description": "Triggers when you like a new video",
+        "isConfigurable": false
+      }
+    ]
+  },
+  {
+    "name": "Facebook",
+    "actions": [
+      {
+        "name": "New friend",
+        "description": "Triggers when you have a new friend",
+        "isConfigurable": false
+      },
+      {
+        "name": "New profile picture",
+        "description": "Triggers when you have a new profil picture",
+        "isConfigurable": false
+      }
+    ]
+  },
+  {
+    "name": "Twitter",
+    "actions": [
+      {
+        "name": "Hashtag",
+        "description": "Triggers when someone tweet in an #",
+        "isConfigurable": false
+      },
+      {
+        "name": "Tweet",
+        "description": "Triggers when you tweet",
+        "isConfigurable": false
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Tweet",
+        "description": "Tweets on your page",
+        "isConfigurable": false
+      }
+    ]
+  },
+  {
+    "name": "Clock",
+    "actions": [
+      {
+        "name": "Every day at",
+        "description": "Triggers everyday at the hour you choose (0 to 23)",
+        "isConfigurable": true
+      },
+      {
+        "name": "Every hour at",
+        "description": "Triggers every hour at the minute you choose (0 to 59)",
+        "isConfigurable": true
+      }
+    ]
+  },
+  {
+    "name": "Gmail",
+    "reactions": [
+      {
+        "name": "Send mail",
+        "description": "Send an alert by mail to who you want",
+        "isConfigurable": true
+      }
+    ]
+  },
+  {
+    "name": "Calendar",
+    "actions": [
+	    {
+	      "name": "Detect event",
+	      "description": "Triggers when an event is in less than an hour",
+	      "isConfigurable": false
+	    }
+	  ],
+	  "reactions": [
+	    {
+	      "name": "Create event",
+	      "description": "Schedule an event today at the hour you enter (0 to 23)",
+	      "isConfigurable": true
+	    }
+	  ]
+  }
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_custom_gridview_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvService"
+            android:text="@string/en_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="@color/colorWhite"
+            android:paddingTop="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="13sp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="20px"
+            android:gravity="center"/>
+
+</LinearLayout>

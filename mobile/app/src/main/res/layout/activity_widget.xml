@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WidgetActivity"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/llContainerWidgetActivity"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvServiceIn"
+            android:text="@string/en_error"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="@color/colorWhite"
+            android:paddingVertical="20dp"
+            android:background="@color/colorRed"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvServiceOut"
+            android:text="@string/en_error"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="@color/colorWhite"
+            android:paddingVertical="20dp"
+            android:background="@color/colorBlue"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:text="@string/en_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@+id/llContainerWidgetActivity"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+
+    <Switch
+        android:id="@+id/widget_switch"
+        android:layout_below="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/en_error" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_below="@+id/widget_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Delete this widget" />
+
+
+</RelativeLayout>

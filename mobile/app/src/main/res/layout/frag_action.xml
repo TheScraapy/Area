@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/fragment_news_rootview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teamponey.teamponeay.area.Fragments.ActionFrag"
+    android:background="#FFF">
+
+    <TextView
+        android:id="@+id/tvAction"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:layout_height="wrap_content"
+        android:text="@string/en_choose_action" />
+
+    <GridView
+        android:id="@+id/grid_view_action"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="200dp"
+        android:gravity="center"
+        android:layout_below="@+id/tvAction"
+        android:numColumns="auto_fit" />
+
+</RelativeLayout>

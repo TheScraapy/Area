@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/fragment_news_rootview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.teamponey.teamponeay.area.Fragments.ConfigureFrag"
+    >
+
+
+    <TextView
+        android:id="@+id/tvTitleConf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30px"
+        android:textSize="22sp"
+        android:text="Parameter:" />
+
+    <EditText
+        android:id="@+id/etDataConf"
+        android:layout_below="@+id/tvTitleConf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30px"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnSendConf"
+        android:layout_below="@id/etDataConf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="30px"
+        android:text="Send" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<RelativeLayout
+    android:id="@+id/fragment_news_rootview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teamponey.teamponeay.area.Fragments.ProfileFrag"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/fragment_page_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:text="Settings"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_page_news_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+
+</RelativeLayout>

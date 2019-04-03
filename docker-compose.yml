@@ -1,0 +1,28 @@
+version: "3"
+
+volumes:
+  shared: {}
+
+services:
+  client:
+    build: ./client
+    ports:
+     - 8081:8081
+    volumes:
+     - ./client:/data
+     - shared:/shared
+    depends_on:
+      - server
+      - mobile
+
+  server:
+    build: ./server
+    ports:
+     - 8080:8080
+    volumes:
+     - ./server:/data
+
+  mobile:
+    build: ./mobile
+    volumes:
+    - shared:/shared

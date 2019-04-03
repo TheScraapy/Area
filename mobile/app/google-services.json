@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "447317115952",
+    "firebase_url": "https://areafirebase.firebaseio.com",
+    "project_id": "areafirebase",
+    "storage_bucket": "areafirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447317115952:android:43673e045e4a69ca",
+        "android_client_info": {
+          "package_name": "com.teamponey.teamponeay.area"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447317115952-sjs9rco84vpo3nl66qrtlfs3vgfelord.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFDPbhi115RusGWQawD-L2D2vlhUdHgYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
